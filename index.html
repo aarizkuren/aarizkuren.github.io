@@ -1,10 +1,10 @@
 <!DOCTYPE html>
-<html lang="es">
+<html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Asier Arizkuren - Portfolio</title>
-    <meta name="description" content="Asier Arizkuren - Desarrollador web multidisciplinar especializado en aplicaciones modernas y desarrollo fullstack">
+    <meta name="description" content="Asier Arizkuren - Multidisciplinary web developer specialized in modern applications and fullstack development">
     
     <!-- Google Fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -12,7 +12,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
     
     <style>
-        /* Reset y configuración base */
+        /* Reset and base configuration */
         * {
             margin: 0;
             padding: 0;
@@ -20,36 +20,36 @@
         }
 
         :root {
-            /* Colores Primarios - Verde Lima */
+            /* Primary Colors - Lime Green */
             --primary-color: #5fda21;
             --primary-light: #7ae542;
             --primary-dark: #4bb818;
             
-            /* Colores Secundarios - Gris Carbón */
+            /* Secondary Colors - Charcoal Gray */
             --secondary-color: #64748b;
             
-            /* Color de Acento - Amarillo Verdoso */
+            /* Accent Color - Greenish Yellow */
             --accent-color: #c4d620;
             
-            /* Colores de Texto */
+            /* Text Colors */
             --text-primary: #1a1f1e;
             --text-secondary: #4a5958;
             --text-light: #7a8988;
             
-            /* Colores de Fondo */
+            /* Background Colors */
             --bg-primary: #ffffff;
             --bg-secondary: #f7faf3;
             --bg-accent: #eef5e8;
             
-            /* Otros Colores */
+            /* Other Colors */
             --border-color: #d8e8cf;
             
-            /* Sombras */
+            /* Shadows */
             --shadow-sm: 0 1px 2px 0 rgb(0 0 0 / 0.05);
             --shadow-md: 0 4px 6px -1px rgb(0 0 0 / 0.1), 0 2px 4px -2px rgb(0 0 0 / 0.1);
             --shadow-lg: 0 10px 15px -3px rgb(0 0 0 / 0.1), 0 4px 6px -4px rgb(0 0 0 / 0.1);
             
-            /* Diseño */
+            /* Design */
             --border-radius: 8px;
             --border-radius-lg: 12px;
             --transition: all 0.3s ease;
@@ -63,14 +63,14 @@
             overflow-x: hidden;
         }
 
-        /* Contenedor principal */
+        /* Main container */
         .container {
             max-width: 1200px;
             margin: 0 auto;
             padding: 0 1rem;
         }
 
-        /* Sección Hero */
+        /* Hero Section */
         .hero {
             min-height: 100vh;
             display: flex;
@@ -149,7 +149,7 @@
             background: linear-gradient(135deg, var(--primary-dark), var(--primary-color));
         }
 
-        /* Sección de Extensión */
+        /* Extension Section */
         .extension-section {
             padding: 5rem 0;
             background-color: var(--bg-secondary);
@@ -257,7 +257,7 @@
             color: white;
         }
 
-        /* Sección de Enlaces */
+        /* Links Section */
         .links-section {
             padding: 5rem 0;
             background-color: var(--bg-primary);
@@ -313,7 +313,7 @@
             color: var(--text-secondary);
         }
 
-        /* Sección de Contacto */
+        /* Contact Section */
         .contact-section {
             padding: 5rem 0;
             background-color: var(--bg-secondary);
@@ -385,7 +385,7 @@
             transform: translateY(-1px);
         }
 
-        /* Pie de página */
+        /* Footer */
         .footer {
             background-color: var(--text-primary);
             color: white;
@@ -449,7 +449,7 @@
             }
         }
 
-        /* Animaciones suaves */
+        /* Smooth animations */
         @keyframes fadeInUp {
             from {
                 opacity: 0;
@@ -468,7 +468,7 @@
             animation: fadeInUp 0.6s ease-out;
         }
 
-        /* Accesibilidad */
+        /* Accessibility */
         @media (prefers-reduced-motion: reduce) {
             * {
                 animation-duration: 0.01ms !important;
@@ -477,7 +477,7 @@
             }
         }
 
-        /* Focus visible para accesibilidad */
+        /* Focus visible for accessibility */
         .cta-button:focus-visible,
         .btn-primary:focus-visible,
         .btn-secondary:focus-visible,
@@ -489,27 +489,27 @@
     </style>
 </head>
 <body>
-    <!-- SECCIÓN HERO - Información principal -->
+    <!-- HERO SECTION - Main information -->
     <section class="hero">
         <div class="container">
             <div class="hero-content">
                 <h1 class="hero-title">Asier Arizkuren</h1>
-                <h2 class="hero-subtitle">Desarrollador Fullstack</h2>
+                <h2 class="hero-subtitle">Fullstack Developer</h2>
                 <p class="hero-description">
-                    Especializado en crear aplicaciones web modernas y aplicaciones innovadoras. 
-                    Apasionado por el código limpio, la accesibilidad y las tecnologías de vanguardia. 
-                    Siempre abierto a nuevas colaboraciones y proyectos.
+                    Specialized in creating modern web applications and innovative solutions. 
+                    Passionate about clean code, accessibility, and cutting-edge technologies. 
+                    Always open to new collaborations and projects.
                 </p>
-                <a href="#contacto" class="cta-button">Conectemos</a>
+                <a href="#contact" class="cta-button">Let's Connect</a>
             </div>
         </div>
     </section>
 
-    <!-- SECCIÓN DE EXTENSIÓN - Destacar tu nueva extensión -->
+    <!-- EXTENSION SECTION - Highlight your new extension -->
     <section class="extension-section" id="extension">
         <div class="container">
-            <h2 class="section-title">Mi Último Proyecto</h2>
-            <p class="section-subtitle">Una extensión que mejora la experiencia de desarrollo</p>
+            <h2 class="section-title">My Latest Project</h2>
+            <p class="section-subtitle">An extension that enhances the development experience</p>
             
             <div class="extension-card">
                 <div class="extension-icon">🚀</div>
@@ -518,58 +518,58 @@
                     Navigate seamlessly between Awilix container registrations and their implementations in VS Code and Cursor.
                 </p>
                 <div class="extension-buttons">
-                    <a href="https://github.com/aarizkuren/awilix-container-navigator/releases/download/v1.0.0/awilix-container-navigator-1.0.0.vsix" class="btn-primary" target="_blank">Descargar</a>
-                    <a href="https://marketplace.visualstudio.com/items?itemName=aarizkuren.awilix-container-navigator" class="btn-secondary" target="_blank">Ver en Marketplace</a>
+                    <a href="https://github.com/aarizkuren/awilix-container-navigator/releases/download/v1.0.0/awilix-container-navigator-1.0.0.vsix" class="btn-primary" target="_blank">Download</a>
+                    <a href="https://marketplace.visualstudio.com/items?itemName=aarizkuren.awilix-container-navigator" class="btn-secondary" target="_blank">View on Marketplace</a>
                 </div>
             </div>
         </div>
     </section>
 
-    <!-- SECCIÓN DE ENLACES - Redes sociales y perfiles -->
-    <section class="links-section" id="enlaces">
+    <!-- LINKS SECTION - Social media and profiles -->
+    <section class="links-section" id="links">
         <div class="container">
-            <h2 class="section-title">Conecta Conmigo</h2>
-            <p class="section-subtitle">Encuéntrame en estas plataformas</p>
+            <h2 class="section-title">Connect With Me</h2>
+            <p class="section-subtitle">Find me on these platforms</p>
             
             <div class="links-grid">
                 <a href="https://github.com/aarizkuren" class="link-card" target="_blank" rel="noopener noreferrer">
                     <div class="link-icon">📱</div>
                     <h3 class="link-title">GitHub</h3>
-                    <p class="link-description">Mis proyectos y contribuciones</p>
+                    <p class="link-description">My projects and contributions</p>
                 </a>
                 
                 <a href="https://linkedin.com/in/asier-arizkuren/" class="link-card" target="_blank" rel="noopener noreferrer">
                     <div class="link-icon">💼</div>
                     <h3 class="link-title">LinkedIn</h3>
-                    <p class="link-description">Experiencia profesional</p>
+                    <p class="link-description">Professional experience</p>
                 </a>
                 
                 <a href="mailto:hello@arizkuren.net" class="link-card">
                     <div class="link-icon">✉️</div>
                     <h3 class="link-title">Email</h3>
-                    <p class="link-description">Contacto directo</p>
+                    <p class="link-description">Direct contact</p>
                 </a>
                 
                 <!--<a href="#" class="link-card" target="_blank" rel="noopener noreferrer">
                     <div class="link-icon">🌐</div>
                     <h3 class="link-title">Portfolio</h3>
-                    <p class="link-description">Más proyectos</p>
+                    <p class="link-description">More projects</p>
                 </a>-->
             </div>
         </div>
     </section>
 
-    <!-- SECCIÓN DE CONTACTO - Formulario para mensajes -->
-    <section class="contact-section" id="contacto">
+    <!-- CONTACT SECTION - Message form -->
+    <section class="contact-section" id="contact">
         <div class="container">
-            <h2 class="section-title">¿Trabajamos Juntos?</h2>
-            <p class="section-subtitle">Cuéntame sobre tu proyecto y cómo puedo ayudarte</p>
+            <h2 class="section-title">Let's Work Together?</h2>
+            <p class="section-subtitle">Tell me about your project and how I can help you</p>
             
             <div class="contact-content">
                 <form class="contact-form" action="https://formspree.io/f/xeorknzn" method="POST">                  
                     <div class="form-group">
-                        <label for="nombre" class="form-label">Nombre</label>
-                        <input type="text" id="nombre" name="nombre" class="form-input" required>
+                        <label for="name" class="form-label">Name</label>
+                        <input type="text" id="name" name="name" class="form-input" required>
                     </div>
                     
                     <div class="form-group">
@@ -578,38 +578,38 @@
                     </div>
                     
                     <div class="form-group">
-                        <label for="asunto" class="form-label">Asunto</label>
-                        <input type="text" id="asunto" name="asunto" class="form-input" required>
+                        <label for="subject" class="form-label">Subject</label>
+                        <input type="text" id="subject" name="subject" class="form-input" required>
                     </div>
                     
                     <div class="form-group">
-                        <label for="mensaje" class="form-label">Mensaje</label>
-                        <textarea id="mensaje" name="mensaje" class="form-textarea" required></textarea>
+                        <label for="message" class="form-label">Message</label>
+                        <textarea id="message" name="message" class="form-textarea" required></textarea>
                     </div>
                     
-                    <button type="submit" class="form-submit">Enviar Mensaje</button>
+                    <button type="submit" class="form-submit">Send Message</button>
                 </form>
             </div>
         </div>
     </section>
 
-    <!-- PIE DE PÁGINA - Derechos y año -->
+    <!-- FOOTER - Copyright and year -->
     <footer class="footer">
         <div class="container">
             <div class="footer-content">
-                <p>&copy; 2025 Asier Arizkuren. Todos los derechos reservados.</p>
-                <p>Desarrollado con ❤️ para la comunidad</p>
+                <p>&copy; 2025 Asier Arizkuren. All rights reserved.</p>
+                <p>Developed with ❤️ for the community</p>
             </div>
         </div>
     </footer>
 
     <!-- 
-    SCRIPTS FUTUROS (opcional):
-    Aquí puedes agregar JavaScript cuando lo necesites:
-    - Validación de formularios
-    - Animaciones avanzadas
+    FUTURE SCRIPTS (optional):
+    Here you can add JavaScript when needed:
+    - Form validation
+    - Advanced animations
     - Analytics
-    - Funcionalidades interactivas
+    - Interactive features
     -->
 </body>
 </html>
