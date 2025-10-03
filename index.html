@@ -3,8 +3,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Desarrollador Web - Portfolio</title>
-    <meta name="description" content="Desarrollador web multidisciplinar especializado en aplicaciones modernas y desarrollo frontend">
+    <title>Asier Arizkuren - Portfolio</title>
+    <meta name="description" content="Asier Arizkuren - Desarrollador web multidisciplinar especializado en aplicaciones modernas y desarrollo fullstack">
     
     <!-- Google Fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -20,21 +20,36 @@
         }
 
         :root {
-            --primary-color: #2563eb;
-            --primary-light: #3b82f6;
-            --primary-dark: #1d4ed8;
+            /* Colores Primarios - Verde Lima */
+            --primary-color: #5fda21;
+            --primary-light: #7ae542;
+            --primary-dark: #4bb818;
+            
+            /* Colores Secundarios - Gris Carbón */
             --secondary-color: #64748b;
-            --accent-color: #0ea5e9;
-            --text-primary: #1e293b;
-            --text-secondary: #64748b;
-            --text-light: #94a3b8;
+            
+            /* Color de Acento - Amarillo Verdoso */
+            --accent-color: #c4d620;
+            
+            /* Colores de Texto */
+            --text-primary: #1a1f1e;
+            --text-secondary: #4a5958;
+            --text-light: #7a8988;
+            
+            /* Colores de Fondo */
             --bg-primary: #ffffff;
-            --bg-secondary: #f8fafc;
-            --bg-accent: #f1f5f9;
-            --border-color: #e2e8f0;
+            --bg-secondary: #f7faf3;
+            --bg-accent: #eef5e8;
+            
+            /* Otros Colores */
+            --border-color: #d8e8cf;
+            
+            /* Sombras */
             --shadow-sm: 0 1px 2px 0 rgb(0 0 0 / 0.05);
             --shadow-md: 0 4px 6px -1px rgb(0 0 0 / 0.1), 0 2px 4px -2px rgb(0 0 0 / 0.1);
             --shadow-lg: 0 10px 15px -3px rgb(0 0 0 / 0.1), 0 4px 6px -4px rgb(0 0 0 / 0.1);
+            
+            /* Diseño */
             --border-radius: 8px;
             --border-radius-lg: 12px;
             --transition: all 0.3s ease;
@@ -478,12 +493,12 @@
     <section class="hero">
         <div class="container">
             <div class="hero-content">
-                <h1 class="hero-title">Tu Nombre</h1>
-                <h2 class="hero-subtitle">Desarrollador Web Multidisciplinar</h2>
+                <h1 class="hero-title">Asier Arizkuren</h1>
+                <h2 class="hero-subtitle">Desarrollador Fullstack</h2>
                 <p class="hero-description">
-                    Especializado en crear experiencias web modernas y aplicaciones innovadoras. 
+                    Especializado en crear aplicaciones web modernas y aplicaciones innovadoras. 
                     Apasionado por el código limpio, la accesibilidad y las tecnologías de vanguardia. 
-                    Siempre abierto a nuevas colaboraciones y proyectos desafiantes.
+                    Siempre abierto a nuevas colaboraciones y proyectos.
                 </p>
                 <a href="#contacto" class="cta-button">Conectemos</a>
             </div>
@@ -494,18 +509,17 @@
     <section class="extension-section" id="extension">
         <div class="container">
             <h2 class="section-title">Mi Último Proyecto</h2>
-            <p class="section-subtitle">Una extensión innovadora que mejora la experiencia de desarrollo</p>
+            <p class="section-subtitle">Una extensión que mejora la experiencia de desarrollo</p>
             
             <div class="extension-card">
                 <div class="extension-icon">🚀</div>
-                <h3 class="extension-name">Nombre de tu Extensión</h3>
+                <h3 class="extension-name">Awilix Container Navigator</h3>
                 <p class="extension-description">
-                    Descripción breve de tu extensión. Explica qué hace, qué problema resuelve 
-                    y por qué es útil para otros desarrolladores. Mantén el texto conciso pero informativo.
+                    Navigate seamlessly between Awilix container registrations and their implementations in VS Code and Cursor.
                 </p>
                 <div class="extension-buttons">
-                    <a href="#" class="btn-primary">Descargar</a>
-                    <a href="#" class="btn-secondary">Ver en Marketplace</a>
+                    <a href="https://github.com/aarizkuren/awilix-container-navigator/releases/download/v1.0.0/awilix-container-navigator-1.0.0.vsix" class="btn-primary" target="_blank">Descargar</a>
+                    <a href="https://marketplace.visualstudio.com/items?itemName=aarizkuren.awilix-container-navigator" class="btn-secondary" target="_blank">Ver en Marketplace</a>
                 </div>
             </div>
         </div>
@@ -518,29 +532,29 @@
             <p class="section-subtitle">Encuéntrame en estas plataformas</p>
             
             <div class="links-grid">
-                <a href="https://github.com/tu-usuario" class="link-card" target="_blank" rel="noopener noreferrer">
+                <a href="https://github.com/aarizkuren" class="link-card" target="_blank" rel="noopener noreferrer">
                     <div class="link-icon">📱</div>
                     <h3 class="link-title">GitHub</h3>
                     <p class="link-description">Mis proyectos y contribuciones</p>
                 </a>
                 
-                <a href="https://linkedin.com/in/tu-perfil" class="link-card" target="_blank" rel="noopener noreferrer">
+                <a href="https://linkedin.com/in/asier-arizkuren/" class="link-card" target="_blank" rel="noopener noreferrer">
                     <div class="link-icon">💼</div>
                     <h3 class="link-title">LinkedIn</h3>
                     <p class="link-description">Experiencia profesional</p>
                 </a>
                 
-                <a href="mailto:tu-email@ejemplo.com" class="link-card">
+                <a href="mailto:hello@arizkuren.net" class="link-card">
                     <div class="link-icon">✉️</div>
                     <h3 class="link-title">Email</h3>
                     <p class="link-description">Contacto directo</p>
                 </a>
                 
-                <a href="#" class="link-card" target="_blank" rel="noopener noreferrer">
+                <!--<a href="#" class="link-card" target="_blank" rel="noopener noreferrer">
                     <div class="link-icon">🌐</div>
                     <h3 class="link-title">Portfolio</h3>
                     <p class="link-description">Más proyectos</p>
-                </a>
+                </a>-->
             </div>
         </div>
     </section>
@@ -552,16 +566,7 @@
             <p class="section-subtitle">Cuéntame sobre tu proyecto y cómo puedo ayudarte</p>
             
             <div class="contact-content">
-                <form class="contact-form" action="https://formspree.io/f/YOUR_FORM_ID" method="POST">
-                    <!-- 
-                    INSTRUCCIONES PARA FORMSPREE:
-                    1. Ve a https://formspree.io/
-                    2. Crea una cuenta gratuita
-                    3. Crea un nuevo formulario
-                    4. Reemplaza "YOUR_FORM_ID" en el action con tu ID de formulario
-                    5. El formulario estará listo para recibir mensajes
-                    -->
-                    
+                <form class="contact-form" action="https://formspree.io/f/xeorknzn" method="POST">                  
                     <div class="form-group">
                         <label for="nombre" class="form-label">Nombre</label>
                         <input type="text" id="nombre" name="nombre" class="form-input" required>
@@ -592,7 +597,7 @@
     <footer class="footer">
         <div class="container">
             <div class="footer-content">
-                <p>&copy; 2024 Tu Nombre. Todos los derechos reservados.</p>
+                <p>&copy; 2025 Asier Arizkuren. Todos los derechos reservados.</p>
                 <p>Desarrollado con ❤️ para la comunidad</p>
             </div>
         </div>
